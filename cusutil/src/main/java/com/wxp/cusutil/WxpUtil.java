@@ -5,7 +5,7 @@ import android.widget.Toast;
 
 public class WxpUtil {
 
-    public void showToast(Context context,String msg){
+    public static void showToast(Context context,String msg){
         Toast.makeText(context,msg,Toast.LENGTH_LONG).show();
     }
 
